@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+body {
+  background-color: rgba(122, 92, 250, 1);
+  display: grid;
+  place-items: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  width: 760px;
+  height: 1200px;
+  background-color: rgba(255, 255, 255, 1);
+  display: grid;
+  place-items: center;
+}
+
+.container2 {
+  width: 600px;
+  height: 900px;
+  gap: 32px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.Username {
+  width: 564px;
+  height: 82px;
+  gap: 8px;
+  text-align: left;
+}
+
+.Username2 {
+  width: 500px;
+  height: 15px;
+  border-radius: 8px;
+  border: 1px;
+  padding: 16px;
+  gap: 10px;
+  border: 1px solid rgba(204, 204, 204, 1);
+}
+
+.name {
+  color: rgba(102, 102, 102, 1);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.name2 {
+  color: rgba(102, 102, 102, 1);
+}
+
+.username3 {
+  width: 500px;
+  height: 15px;
+  border-radius: 8px;
+  border: 1px;
+  padding: 16px;
+  gap: 10px;
+  border: 1px solid rgba(204, 204, 204, 1);
+}
+
+.password {
+  width: 564px;
+}
+
+.text2 {
+  color: rgba(102, 102, 102, 1);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.Usernamee {
+  width: 564px;
+  height: 82px;
+  text-align: left;
+}
+
+.name3 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(102, 102, 102, 1);
+}
+
+.Username4 {
+  width: 500px;
+  height: 15px;
+  border-radius: 8px;
+  border: 1px;
+  padding: 16px;
+  gap: 10px;
+  border: 1px solid rgba(204, 204, 204, 1);
+  color: rgba(51, 51, 51, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border: 2px solid rgba(235, 87, 87, 1);
+}
+
+.ptext {
+  color: rgba(235, 87, 87, 1);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.imggg {
+  display: flex;
+  align-items: right;
+}
+
+.imgg {
+  width: 20px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  margin-right: 10px;
+  position: relative;
+  right: 35px;
+  top: 15px;
+}
+
+.checkboxx {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(204, 204, 204, 1);
+  background-color: rgba(255, 255, 255, 1);
+
+  align-items: center;
+}
+
+.box {
+  width: 564px;
+  height: 24px;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: left;
+  margin-top: 10px;
+  margin-left: 13px;
+  align-items: center;
+}
+
+.text3 {
+  color: rgba(102, 102, 102, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.box2 {
+  margin-bottom: 5px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.select1 {
+  width: 100%;
+  height: 24px;
+  gap: 10px;
+  border-radius: 32px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.name4 {
+  color: rgba(102, 102, 102, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+}
+
+.radio2 {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 32px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.select2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  gap: 9px;
+  padding-top: 10px;
+}
+
+.select3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  gap: 9px;
+}
+
+.dropdown-container {
+  width: 400px;
+}
+
+.custom-dropdown {
+  width: 564px;
+  height: 69px;
+  padding: 0 15px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #555555;
+  border: 2px solid rgba(122, 92, 250, 1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z' fill='%23555'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 16px;
+  cursor: pointer;
+}
+
+.custom-dropdown option {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  height: 100px;
+  line-height: 50px;
+  padding: 0 10px;
+  color: #555555;
+  background-color: #ffffff;
+}
+
+.custom-dropdown option:hover,
+.custom-dropdown option:checked {
+  background-color: #6f42c1;
+  color: white;
+}
+.buttons {
+  width: 564px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.button2 {
+  border: 1px solid rgba(122, 92, 250, 1);
+  border-radius: 8px;
+  width: 172px;
+  padding: 20px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  justify-content: center;
+  color: rgba(122, 92, 250, 1);
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.button3 {
+  border: 1px solid rgba(122, 92, 250, 1);
+  border-radius: 8px;
+  width: 172px;
+  padding: 20px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  justify-content: center;
+  color: white;
+  background-color: rgba(122, 92, 250, 1);
+  cursor: pointer;
+}
